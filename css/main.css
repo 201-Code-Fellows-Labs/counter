@@ -1,0 +1,34 @@
+body {
+    text-align: center;
+    margin-top: 10%;
+    font-size: 150px;
+}
+
+button{
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 36px;
+    width: 60px;
+    height: 60px;
+}
+button:hover {
+    cursor: pointer;
+}
+.buttons{
+    margin-top: -120px;
+
+}
+.increment {
+    background-color: chartreuse;
+}
+.decrement{
+    background-color: red;
+}
+.pos{
+    color: green;
+}
+.neg{
+    color: red;
+}
