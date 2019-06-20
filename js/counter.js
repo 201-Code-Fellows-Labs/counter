@@ -34,6 +34,9 @@ function numCheck(){
 
 function checkLocalStorage(){
     num = localStorage.getItem('counter');
+    if (num === null){
+        num = 0;
+    }
     number.innerHTML = num;
     numCheck();
 }
